@@ -8,7 +8,7 @@ const axios = require('axios');
         defaultViewport: { width: 1920, height: 1080 },
         args: ['--start-maximized'],
         'ignoreHTTPSErrors': true,
-        slowMo: 50,
+        slowMo: 100,
     });
     const page = await browser.newPage();
 
