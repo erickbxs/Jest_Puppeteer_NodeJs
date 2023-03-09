@@ -1,0 +1,27 @@
+{
+  "name": "github-login-test",
+  "version": "1.0.0",
+  "description": "Suite de testes para login e logout do GITHUB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickbxs/Jest_Puppeteer_NodeJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erickbxs/Jest_Puppeteer_NodeJs/issues"
+  },
+  "homepage": "https://github.com/erickbxs/Jest_Puppeteer_NodeJs#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "puppeteer": "^19.7.3"
+  }
+}
