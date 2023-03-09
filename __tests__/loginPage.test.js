@@ -20,7 +20,7 @@ describe('2.0 - Testes para a pagina de login e seu preenchimento:', () => {
             headless: false,
             defaultViewport: { width: 1920, height: 1080 },
             args: ["--start-maximized"],
-            slowMo: 50,
+            slowMo: 100,
         });
         const page = await browser.newPage();
         await page.goto("https://github.com");
