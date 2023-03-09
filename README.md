@@ -55,5 +55,5 @@ Para a execução dos testes, foram utilizadas as seguintes bibliotecas:
 - dotenv
 
 Esperamos que esse projeto ajude você a entender melhor como utilizar o Puppeteer e o Jest para testar aplicações web em Node.js.
-___# Jest_Puppeteer_NodeJs
-
+### Jest_Puppeteer_NodeJs
+___
