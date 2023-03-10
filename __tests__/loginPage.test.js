@@ -14,7 +14,7 @@ const passwordForm = process.env.GITHUB_PASSWORD;
 const userForm = process.env.GITHUB_USERNAME
 
 describe('2.0 - Testes para a pagina de login e seu preenchimento:', () => {
-    jest.setTimeout(60000);
+    jest.setTimeout(80000);
     it('2.1 - Testes complementares, para entrar no github, acessar a pagina de repositorios, escolher um de forma aleatoria, clicar, depois ir para a pagina de pull request, depois sair do github', async () => {
         const browser = await puppeteer.launch({
             headless: false,
